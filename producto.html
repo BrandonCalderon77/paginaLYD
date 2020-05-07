@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+
+    <!-- estilos llamar hoja -->
+    <link rel="stylesheet" href="estilo.css">
+
+    <!-- iconos material design -->
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- material design -->
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+</head>
+<body>
+
+
+    <!-- Navbar -->
+
+    <div class="navbar-fixed">
+        <nav class="white">
+            <div class="nav-wrapper container">
+                <a href="#" class="brand-logo left"><img src="img/marca_n.png" alt="" style="width: 37px;"></a>
+
+                <ul class="right">
+                   
+                    <li>
+                        <a href="#">
+                            <i class="material-icons black-text">shopping_cart</i>
+                            
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <i class="material-icons sidenav-trigger black-text" data-target="menu-side">menu</i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+
+
+
+
+
+    <!-- sidebar -->
+    <div class="container section">
+
+        <ul class="sidenav" id="menu-side">
+
+
+            <!-- <div class="black">
+                <a href="#" class="white-text">Iniciar sesion</a>
+                <a href="#" class="white-text">Registrarme</a>
+            </div> -->
+
+            <li class="black ; dis_flex">
+                <a href="#idmodal" class="white-text modal-trigger">Iniciar sesion</a>
+                <a href="login.html" class="white-text">Registrarme</a>
+            </li>
+
+            <li class="user-view">
+                <img src="img/marca_n.png" alt="" style="width: 37px;">
+            </li>
+
+            <li>
+                <a href="">INICIO
+                    <i class="material-icons right">chevron_right</i>
+                </a>
+            </li>
+
+           
+
+            
+            <li>
+                <div class="divider"></div>
+            </li>
+
+            <li>
+                <a href="">VER TODOS LOS PRODUCTOS
+                    
+                </a>
+                <a href="">HOMBRE
+                    <i class="material-icons right">chevron_right</i>
+                </a>
+                <a href="">MUJER
+                    <i class="material-icons right">chevron_right</i>
+                </a>
+                <a href="">KIDS
+                    <i class="material-icons right">chevron_right</i>
+                </a>
+                
+            </li>
+
+            <li>
+                <div class="divider"></div>
+            </li>
+
+            <li class="mi_cuenta">
+                <a href="">Mi cuenta</a>
+
+                <div>
+                    <a href=""><img src="img/ico_fac.png" alt="" style="width: 27px;"></a>
+                    <a href=""><img src="img/ico_ins.png" alt="" style="width: 27px;"></a>
+                    <a href=""><img src="img/ico_wat.png" alt="" style="width: 27px;"></a>
+
+                </div>
+                
+                
+            </li>
+
+            <li>
+                <a href="">Ayuda</a>
+            </li>
+
+        </ul>
+    </div>
+
+
+    <!-- section todos los productos -->
+
+    <section>
+        <div class="row">
+            <div class="col s12 ">
+                <span>Inicio>Todos los productos</span><br>
+                <span>Camiseta Basic Rosa(Hombre)-LIVE YOUR DREAM</span>
+                <p>$36.990</p>
+                <p style="text-align: right;">Envio gratis!</p>
+                
+            </div>
+        </div>
+
+        <div class="row card">
+            <div class="card-image">
+                <img src="img/cam_rosa.jpg" alt="">
+            </div>
+            
+            <div class="col s3 card-image" style="padding: 1px;">
+                <img src="img/cam_rosa.jpg" alt="" >
+            </div>
+
+            <div class="col s3 card-image" style="padding: 1px;">
+                <img src="img/cam_rosa.jpg" alt="" >
+            </div>
+
+            <div class="col s3 card-image" style="padding: 1px;">
+                <img src="img/cam_rosa.jpg" alt="" >
+            </div>
+
+            <div class="col s3 card-image" style="padding: 1px;">
+                <img src="img/cam_rosa.jpg" alt="" >
+            </div>
+
+            
+
+            <!-- <div class="input-field col s12">
+                <input type="email" placeholder="ingresa tu correo" id="email" class="validate" required>
+                <label for="email">Correo electronico</label>
+            </div> -->
+
+
+
+            
+
+        </div>
+
+
+
+
+
+        <!-- despelgables -->
+
+
+        <div class="row">
+
+
+
+            <div class="container">
+                <label for="talla">Selecciona tu talla</label><br>
+                <div class="col s12 dropdown-trigger" id="talla"  data-target="desple_talla">
+                    <a href="#" class="black-text">
+                       XS
+                       <i class="material-icons right black-text">arrow_drop_down</i>
+                    </a>   
+                </div>
+            </div> 
+
+
+            <div class="container">
+                <label for="talla">Cantidad</label><br>
+                <div class="col s12 dropdown-trigger" id="talla"  data-target="desple_cantidad">
+                    <a href="#" class="black-text">
+                       1 Unidad
+                       <i class="material-icons right black-text">arrow_drop_down</i>
+                    </a>   
+                </div>
+            </div> 
+            
+
+            <div class="container">
+                <label for="talla">Selecciona el color</label><br>
+                <div class="col s12 dropdown-trigger" id="talla"  data-target="desple_color">
+                    <a href="#" class="black-text">
+                       Rosa
+                       <i class="material-icons right black-text">arrow_drop_down</i>
+                    </a>   
+                </div>
+            </div> 
+            <br>
+            <br>
+            <br>
+            <br>
+
+            <div class="container">
+                
+                <button class="col s12" id="talla">
+                    Añadir al carrito
+                </button>
+            </div> 
+
+            
+            <br>
+            <br>
+
+
+            <div class="container center">
+                <ul>
+                    <li>- Envio gratis<p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                    </li>
+
+                    <li>- Paga seguro<p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                    </li>
+
+                    <li>- Disponibilidad de productos<p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                    </li>
+                </ul>
+            </div> 
+
+            
+
+
+
+
+
+
+
+        </div>
+
+        <!-- MENU DESPELEGABLE TALLA -->
+        <ul id="desple_talla" class="dropdown-content">
+            <li>XS</li>
+            <li>S</li>
+            <li>M</li>
+            <li>L</li>
+            <li>XL</li>
+        </ul>
+
+
+        <!-- MENU DESPELEGABLE Cantidad -->
+        <ul id="desple_cantidad" class="dropdown-content">
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+        </ul>
+
+        <!-- MENU DESPELEGABLE Color -->
+        <ul id="desple_color" class="dropdown-content">
+            <li>Rosa</li>
+            <li>verde</li>
+            <li>azul</li>
+            
+        </ul>
+
+    </section>
+
+
+
+    <!-- activar JavaScript -->
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!-- <script>
+         // y esta es la otra inicializando solo del icono flotante
+         document.addEventListener('DOMContentLoaded', function(){
+
+             var elems = document.querySelectorAll('.sidenav');
+             var instances = M.Sidenav.init(elems);
+
+             var elems = document.querySelectorAll('.modal');
+             var instances = M.Modal.init(elems);
+
+             
+
+             });
+    </script> -->
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function(){
+           M.AutoInit();
+        })
+
+
+       // y esta es la otra inicializando solo el navbar
+       // document.addEventListener('DOMContentLoaded', function(){
+       //     var elems = document.querySelectorAll('.sidenav');
+       //     var instances = M.Sidenav.init(elems);
+       // })
+
+   </script>
+</body>
+</html>

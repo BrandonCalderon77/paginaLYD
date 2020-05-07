@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    
+    <!-- estilos llamar hoja -->
+    <link rel="stylesheet" href="estilo.css">
+
+    <!-- iconos material design -->
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- material design -->
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+</head>
+
+
+<body>
+
+
+
+    <!-- Navbar -->
+
+    <div class="navbar-fixed">
+        <nav class="white">
+            <div class="nav-wrapper container">
+                <a href="#" class="brand-logo left"><img src="img/marca_n.png" alt="" style="width: 37px;"></a>
+
+                <ul class="right">
+                   
+                    <li>
+                        <a href="#">
+                            <i class="material-icons black-text">shopping_cart</i>
+                            
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <i class="material-icons sidenav-trigger black-text" data-target="menu-side">menu</i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+
+
+
+
+
+    <!-- sidebar -->
+    <div class="container section">
+
+        <ul class="sidenav" id="menu-side">
+
+
+            <!-- <div class="black">
+                <a href="#" class="white-text">Iniciar sesion</a>
+                <a href="#" class="white-text">Registrarme</a>
+            </div> -->
+
+            <li class="black ; dis_flex">
+                <a href="#idmodal" class="white-text modal-trigger">Iniciar sesion</a>
+                <a href="login.html" class="white-text">Registrarme</a>
+            </li>
+
+            <li class="user-view">
+                <img src="img/marca_n.png" alt="" style="width: 37px;">
+            </li>
+
+            <li>
+                <a href="">INICIO
+                    <i class="material-icons right">chevron_right</i>
+                </a>
+            </li>
+
+           
+
+            
+            <li>
+                <div class="divider"></div>
+            </li>
+
+            <li>
+                <a href="tod_los_pro.html">VER TODOS LOS PRODUCTOS
+                    
+                </a>
+                <a href="">HOMBRE
+                    <i class="material-icons right">chevron_right</i>
+                </a>
+                <a href="">MUJER
+                    <i class="material-icons right">chevron_right</i>
+                </a>
+                <a href="">KIDS
+                    <i class="material-icons right">chevron_right</i>
+                </a>
+                
+            </li>
+
+            <li>
+                <div class="divider"></div>
+            </li>
+
+            <li class="mi_cuenta">
+                <a href="">Mi cuenta</a>
+
+                <div>
+                    <a href=""><img src="img/ico_fac.png" alt="" style="width: 27px;"></a>
+                    <a href=""><img src="img/ico_ins.png" alt="" style="width: 27px;"></a>
+                    <a href=""><img src="img/ico_wat.png" alt="" style="width: 27px;"></a>
+
+                </div>
+                
+                
+            </li>
+
+            <li>
+                <a href="">Ayuda</a>
+            </li>
+
+        </ul>
+    </div>
+
+
+
+
+
+
+
+
+
+    <!-- Ventana pop up modal iniciar sesion -->
+
+    <div id="idmodal" class="modal">
+
+        
+        <a href="" class="modal-close model-footer right">
+            <i class="material-icons">close</i>
+        </a>
+        
+        
+        <div class="row">
+            <form class="col s12">
+                
+
+                    <span class="">BIENVENIDO DREAMER</span> 
+                    <br><br>
+    
+    
+                    <div class="input-field col s12">
+                        <input type="email" placeholder="ingresa tu correo" id="email" class="validate" required>
+                        <label for="email">Correo electronico</label>
+                    </div>
+    
+                    
+                    <div class="input-field col s12">
+                       
+                        <input   type="password" placeholder="ingresa tu contraseña" id="email" class="validate" required>
+                        <label for="email">Contraseña</label>
+
+                        
+                    </div>
+
+                    <p class="center">Olvide la contraseña?</p>
+
+                    <div class="center">
+                        <button class="btn black"  type="submit" >INICIAR SESION</button>
+                    </div>
+
+                   
+
+                    <p class="center">Entrar con:</p>
+
+                    <div class="center">
+                        <button class="btn black">Facebook</button>
+                        <button class="btn black">Google</button>
+
+                    </div>
+
+                   
+
+            </form>      
+        </div>
+
+    </div>
+
+
+
+
+
+    
+
+    
+
+
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+   
+
+
+
+    
+
+
+
+
+
+
+
+
+    <!-- activar JavaScript -->
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script>
+         // y esta es la otra inicializando solo del icono flotante
+         document.addEventListener('DOMContentLoaded', function(){
+
+             var elems = document.querySelectorAll('.sidenav');
+             var instances = M.Sidenav.init(elems);
+
+             var elems = document.querySelectorAll('.modal');
+             var instances = M.Modal.init(elems);
+
+             
+
+             });
+    </script>
+
+
+    
+</body>
+</html>

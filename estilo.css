@@ -1,0 +1,39 @@
+.mi_cuenta{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    text-align: right;
+    justify-content: right;
+    
+}
+
+.ali_dis{
+    justify-content: space-between;
+}
+
+.dis_flex{
+    display: flex;
+    
+    
+}
+
+.botones{
+    border: black solid 1px;
+     border-radius: 10px;
+     background-color: tomato; 
+
+}
+
+b{
+    border: black solid 1px;
+
+}
+
+#talla{
+
+    width: 100%;
+    height: 40px;
+    border: solid black 1px;
+    border-radius: 7px;
+}
+
